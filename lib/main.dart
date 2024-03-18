@@ -11,7 +11,7 @@ var kColorScheme = ColorScheme.fromSeed(
 
 var kDarkColorScheme = ColorScheme.fromSeed(
   brightness: Brightness.dark,
-  seedColor: Color.fromARGB(255, 0, 200, 255),
+  seedColor: const Color.fromARGB(255, 0, 200, 255),
 );
 
 class MyApp extends StatelessWidget {
